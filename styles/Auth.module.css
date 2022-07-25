@@ -1,0 +1,98 @@
+.container {
+  box-sizing: border-box;
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #024164;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.main {
+  box-sizing: border-box;
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.title {
+  color: white;
+  font-size: 20px;
+}
+
+.subtitle {
+  color: white;
+  text-align: center;
+}
+
+.form {
+  position: relative;
+  height: 390px;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 5px 15px;
+  color: white;
+  text-align: left;
+  border: 1px solid #00B2BD;
+  border-radius: 10px;
+}
+.form :nth-child(n){
+  position: relative;
+  width: 100%;
+
+}
+.input {
+  border: none;
+  border: 1px solid #00B2BD;
+  width: 90%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 7px;
+  border-radius: 5px;
+}
+
+.buttonsContainer {
+  position: relative;
+  width: 100%;
+  height: 85px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttonsContainer :nth-child(n) {
+  width: 70%;
+}
+
+.linkForm {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;  
+  font-size: 12px;
+  color: white;    
+  bottom: 15px;
+  z-index: 100;
+}
+.link {
+  text-decoration: underline;
+}

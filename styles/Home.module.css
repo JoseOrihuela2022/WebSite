@@ -1,0 +1,13 @@
+.img {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+.whatsapp {
+    display: block;
+    position: fixed;
+    width: 50px;
+    bottom: 30px;
+    right: 30px;
+}
